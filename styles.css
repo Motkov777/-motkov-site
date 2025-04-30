@@ -1,0 +1,71 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f7f3ed;
+  color: #4b2e2e;
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  background-color: #f2eadc;
+  padding: 60px 20px;
+  text-align: center;
+}
+.logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 2.5em;
+}
+.cta-button {
+  background-color: #6e4a2e;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+}
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.product {
+  background-color: #fffdf8;
+  border: 1px solid #e6dfd2;
+  padding: 20px;
+  border-radius: 6px;
+  width: 260px;
+  text-align: center;
+}
+.product img {
+  width: 100%;
+  height: auto;
+  background: #ccc;
+  border-radius: 5px;
+}
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+  display: block;
+}
+button {
+  background-color: #a8764d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer {
+  background-color: #e9e3da;
+  text-align: center;
+  padding: 20px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MOTKOV Car Diffusers</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <img src="logo.png" alt="MOTKOV Logo" class="logo" />
+      <h1>CAR DIFFUSERS</h1>
+      <p>Natural Oils • Handcrafted • Lasts up to 30 days</p>
+      <a href="#catalog" class="cta-button">SHOP NOW</a>
+    </div>
+  </header>
+
+  <section id="catalog">
+    <h2>Каталог ароматов</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="placeholder.jpg" alt="Tobacco & Vanilla" />
+        <h3>Tobacco & Vanilla</h3>
+        <p>Тёплый. Глубокий. Уверенный.<br>Табак, ваниль и древесные акценты.</p>
+        <span class="price">1190 ₽</span>
+        <button onclick="addToCart('Tobacco & Vanilla', 1190)">Купить</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="cart">
+    <h2>Корзина</h2>
+    <div id="cart-items"></div>
+    <p><strong>Итого:</strong> <span id="total">0</span> ₽</p>
+    <form id="payment-form" onsubmit="return testPay();">
+      <button type="submit">Оплатить</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MOTKOV. Все права защищены.</p>
+  </footer>
+</body>
+</html>
