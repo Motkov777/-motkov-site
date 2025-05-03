@@ -1,57 +1,72 @@
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  color: #333;
-  background: #fdfdfb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
 }
-
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 2em 1em;
 }
-
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #444;
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
 }
-
-#hero {
-  text-align: center;
-  padding: 60px 20px;
-  background: #f4f1ec;
+.products {
+    padding: 1em;
+    text-align: center;
 }
-
-.product-grid {
-  display: flex;
-  gap: 20px;
-  padding: 40px;
-  flex-wrap: wrap;
-  justify-content: center;
+.products h2 {
+    margin-bottom: 1em;
 }
-
-.product {
-  background: #fff;
-  border: 1px solid #ddd;
-  padding: 15px;
-  text-align: center;
-  width: 250px;
+.product-card {
+    background: white;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
 }
-
-.product img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  margin-bottom: 10px;
+.product-card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 1em;
 }
-
+.benefits {
+    background: #fff;
+    padding: 2em 1em;
+    text-align: center;
+}
+.benefits h2 {
+    margin-bottom: 0.5em;
+}
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+.benefits li {
+    margin: 0.5em 0;
+    font-weight: 500;
+}
 footer {
-  text-align: center;
-  padding: 20px;
-  background: #eee;
-  font-size: 14px;
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .product-card {
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        margin: 1%;
+    }
 }
