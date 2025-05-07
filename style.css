@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f3ef;
+  color: #3e2e24;
+}
+header {
+  background: #d9cfc4;
+  text-align: center;
+  padding: 1em;
+}
+.logo {
+  width: 120px;
+}
+.products, .reviews {
+  padding: 1em;
+  max-width: 600px;
+  margin: auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 0.5em 0;
+}
+blockquote {
+  font-style: italic;
+  background: #fff;
+  padding: 1em;
+  margin: 1em 0;
+  border-left: 5px solid #a58a74;
+}
+footer {
+  background: #d9cfc4;
+  padding: 1em;
+  text-align: center;
+}
+footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #3e2e24;
+}
