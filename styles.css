@@ -1,45 +1,44 @@
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f7f5f2;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f3ef;
+  color: #3e2e24;
 }
 header {
-    background: #d4c4b2;
-    padding: 20px;
-    text-align: center;
+  background: #d9cfc4;
+  text-align: center;
+  padding: 1em;
 }
 .logo {
-    max-width: 100px;
+  width: 120px;
 }
-.products, .reviews, .contact {
-    padding: 20px;
-    text-align: center;
+.products, .reviews {
+  padding: 1em;
+  max-width: 600px;
+  margin: auto;
 }
-.product-list img {
-    max-width: 90%;
-    height: auto;
-    margin: 10px;
+ul {
+  list-style: none;
+  padding: 0;
 }
-.button {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    background: #7b5e42;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+li {
+  margin: 0.5em 0;
+}
+blockquote {
+  font-style: italic;
+  background: #fff;
+  padding: 1em;
+  margin: 1em 0;
+  border-left: 5px solid #a58a74;
 }
 footer {
-    background: #eae1d9;
-    text-align: center;
-    padding: 15px;
-    font-size: 0.9em;
+  background: #d9cfc4;
+  padding: 1em;
+  text-align: center;
 }
-@media (max-width: 600px) {
-    .product-list img {
-        max-width: 100%;
-    }
+footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #3e2e24;
 }
