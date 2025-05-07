@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f5f2;
+    color: #333;
+}
+header {
+    background: #d4c4b2;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    max-width: 100px;
+}
+.products, .reviews, .contact {
+    padding: 20px;
+    text-align: center;
+}
+.product-list img {
+    max-width: 90%;
+    height: auto;
+    margin: 10px;
+}
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #7b5e42;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+footer {
+    background: #eae1d9;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+@media (max-width: 600px) {
+    .product-list img {
+        max-width: 100%;
+    }
+}
